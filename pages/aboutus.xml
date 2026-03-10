@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 14 Oct 2023 05:11:31 +0000</pubDate><title><![CDATA[About Us]]></title><url><![CDATA[aboutus]]></url><meta><![CDATA[Passionate Educators, Transformative Learning, Enjoyable Education]]></meta><metad><![CDATA[Learning Ladder: We're passionate educators making learning transformative, enjoyable, and accessible through games.]]></metad><menu><![CDATA[About Us]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<p>&lt;!DOCTYPE html&gt;<br />
+	&lt;html class="aboutus" lang="en"&gt;<br />
+	&lt;head&gt;<br />
+	&nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br />
+	&nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&nbsp;&gt;<br />
+	&nbsp; &nbsp; &lt;title&gt;About Learning Ladder&lt;/title&gt;<br />
+	&lt;/head&gt;<br />
+	&lt;body&gt;<br />
+	&nbsp; &nbsp; &lt;!-- main content --&gt;<br />
+	&nbsp; &nbsp; &lt;div class="main"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="aboutuscontent"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 id="AboutUs"&gt;About Us&lt;/h2&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Passion Led Us Here!!&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; At &lt;em&gt;Learning Ladder&lt;/em&gt;, we think that learning can be &lt;em&gt;transformative, interesting, and most importantly, enjoyable&lt;/em&gt;. Our adventure began with a shared enthusiasm for using games to &lt;em&gt;improve educational opportunities&lt;/em&gt;. The inspiration behind the development of this platform was the straightforward notion that passion brought us here.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Who We Are&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We are a multicultural collection of educators with the same objective of turning education into an adventure that sparks curiosity, creativity, and a love of learning that lasts a lifetime. We represent every continent and each provide our own insights, knowledge, and passion for the amazing potential of gamification in education.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Our Vision&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Our goal is to provide a central resource where teachers and students can find a variety of educational games and activities that not only make learning effective but pleasant. Our vision is straightforward but profound. The lessons that make a lasting impact are, in our opinion, the greatest ones, and that is exactly what we strive to do.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Why Learning Ladder&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Every student has different learning needs, and Learning Ladder is aware of this. Due to this, we provide a wide selection of game categories, including Virtual Reality and Augmented Reality games as well as Creative Games and others. These activities are made to appeal to students of all ages, from young children just starting out in school to university-level students looking for fresh challenges.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Our Commitment&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We are dedicated to collecting and disseminating the top educational video games. But our focus is on learning, not just gaming. Our staff carefully assesses each game's educational worth to make sure it supports fundamental abilities and knowledge and adheres to curriculum standards.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &lt;/div&gt;<br />
+	&lt;/body&gt;<br />
+	&lt;/html&gt;</p>
+]]></content><private><![CDATA[]]></private><author><![CDATA[mac123]]></author></item>

@@ -1,0 +1,461 @@
+/* Background for Home PAge*/
+.homebg {
+	background-image: url(images/background.webp);
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	margin-left: 1cm;
+}
+/* Intro content Styling*/
+.welcomebox{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	flex:1;
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	font-family: arial;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+}
+/* Welcome Styling*/
+.welcome {
+	color: teal;
+	text-align: center;
+	font-family: fantasy,sans-serif;
+	font-weight: lighter;
+}
+/* Styling for hyperlink checkout course*/
+.passion {
+	font-family: monospace,sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	text-decoration: none;
+}
+/* Styling for fuel your passion*/
+.fuel {
+	font-family: monospace,sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 15px;
+}
+/* Styling for featured games*/
+.featured {
+	font-family: monospace,sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
+/* Navigation bar Stlying Start*/
+nav.Nav {	
+	background-color: lightgrey;
+	color: white;
+	overflow: hidden;	 
+}
+/* Navigation links Styling*/
+nav.Nav a {
+	font-family: monospace,sans-serif;
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+/* Navigation Hover color change*/
+nav.Nav a:hover {
+	background-color: lightskyblue;
+	color: black;
+}
+/* Navigation bar Active page styling*/
+nav.Nav a.active {
+	background-color: lightskyblue;
+	color: white;
+}
+/* Navigation bar padding to avoid content overlay*/
+
+
+/* bonus*/
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: lightgrey;
+  font-family: monospace,sans-serif; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightgrey;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: blueviolet;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* intro text styling */
+.intro {
+	font-size: 20px;
+	font-family: fantasy,sans-serif;
+}
+/* Styling for the list of featured games*/
+.allgames {
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+    align-items: flex-start;
+}
+
+
+/* Game container styling */
+.game1, .game2, .game3 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-family: monospace, sans-serif;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Square container for game images */
+.game1 img, .game2 img, .game3 img {
+    width: 200px; /* Set the desired width for your images */
+    height: 200px; /* Set the desired height for your images (same as width for a square image) */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    object-position: center; /* Adjust the position of the image inside the container if needed */
+    border-radius: 5px;
+}
+
+
+
+/* Styling for website boasting*/
+.property {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background-color: lightgrey;	
+	font-family: fantasy,sans-serif;
+	font-weight: normal;
+}
+/* About us styling start, Background image Styling */
+.aboutus {
+	background-image: url(images/aboutus.webp);
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	margin-left: 1cm;
+}
+/* About us content styling */
+.aboutus .aboutuscontent {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	flex:1;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	font-family: monospace,sans-serif;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+	font-size: 20px;
+}
+
+/* about us heading styling*/
+.aboutus #AboutUs {
+	text-align: center;
+	font-size: 30px;
+}
+/* contact us styling start, Background image Styling*/
+.contactus {
+	background-image: url(images/contactus.webp);
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	margin-left: 1cm;
+	font-size: 20px;
+	font-family: monospace,sans-serif;
+}
+/* contact us content styling */
+.conctactcontent {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	flex:1;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	font-family: monospace,sans-serif;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+}
+/*Form styling start, text styling*/
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=url]
+
+ {
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	background-color: lightgrey;
+	border: 2px solid #ccc;
+}
+
+
+
+/* Submit page dropdown styling */
+select#categoryname, select#gradelevel, select#score,select#difficultylevel {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: lightgrey;
+    border: 2px solid #ccc;
+}
+
+/* Submit page dropdown styling*/
+select#categoryname, select#gradelevel,select#score,select#difficultylevel {
+	font-family: monospace,sans-serif;
+	
+	color: white;
+	text-align: left;
+
+	text-decoration: none;
+	font-size: 20px;
+
+}
+
+
+/* text area(box) styling*/
+textarea {
+	width: 50%;
+	height: 150px;
+	padding: 12px 20px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: lightgrey;
+	resize: none;    
+}
+
+
+
+/* submit and reset button styling */
+button , input[type=reset] {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.submitresetcontainer {
+	display: inline-block;
+}
+
+
+/*Privacy policy styling start , Background image styling*/
+.pripol {
+	background-image: url(images/privacy.webp);
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	margin-left: 1cm;
+	font-size: 20px;
+	font-family: monospace,sans-serif;
+}
+/*privacy content Styling*/
+.pricontent {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	flex:1;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	font-family: monospace,sans-serif;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+}
+/*privacy content header styling*/
+.pricontent , #privacypolicy, #header, #updated {
+	text-align: center;
+}
+/*terms and conditions styling start, Background image styling*/
+.terms {
+	background-image: url(images/terms.webp);
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-attachment: fixed; 
+	margin-left: 1cm;
+	font-size: 20px;
+	font-family: monospace,sans-serif;
+}
+/* terms content styling */
+.termscontent {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	flex:1;
+	margin: 10px;
+	padding: 10px;
+	text-align: left;
+	font-family: monospace,sans-serif;
+	background: rgba(255, 255, 255, 0.8);
+	border-radius: 5px;
+}
+/*terms header styling*/
+.termscontent ,#termsandconditions, #termupdate {
+	text-align: center;
+}
+
+
+.container {
+    text-align: center;
+    margin-left: 1cm;
+    font-size: 20px;
+    font-family: monospace, sans-serif;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    flex: 1;
+    margin: 50px;
+    padding: 10px;
+    text-align: left;
+    font-family: monospace, sans-serif;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+
+.q1 {
+	display: inline-block;
+    text-align: left;
+}
+
+
+.playcontainer {
+    position: relative;
+    width: auto; 
+    height: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+
+/* Lets play image*/
+#play {
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	z-index: 1;
+    object-fit: cover;
+}
+
+
+/* footer styling */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: lightgrey; 
+    text-align: center;
+    font-family: monospace, sans-serif;
+    font-size: 10px;
+    color: black;
+    z-index: 2;
+}
+
+
+@media screen and (max-width: 600px) {
+
+	body {
+        font-size: 16px; 
+    }
+
+/*for images*/
+    .homebg {
+        background-image: url(images/background.webp);
+    }
+    .aboutus {
+        background-image: url(images/aboutus.webp);
+    }
+    .contactus {
+        background-image: url(images/contactus.webp);
+    }
+    .pripol {
+        background-image: url(images/privacy.webp);
+    }
+    .terms {
+        background-image: url(images/terms.webp);
+    }
+
+/*for fonts*/
+
+ 
+    .welcome {
+        font-size: 1.5rem; /* Adjust font size for better readability */
+    }
+    .featured {
+        font-size: 2rem; /* Adjust font size for better readability */
+    }
+    
+    .passion {
+    	 font-size: 1rem; /* Adjust font size for better readability */
+    }
+
+    footer {
+    	 font-size: 1rem; /* Adjust font size for better readability */
+    }
+
+/* for nav bar */
+    nav.Nav {
+        text-align: left; /* Center-align the navigation links */
+    }
+
+    nav.Nav a {
+        float: none; /* Remove the floating effect */
+        display: block; /* Make navigation links full-width */
+        margin: 5px 0; /* Add some vertical spacing between links */
+        padding: 10px 0; /* Adjust vertical padding */
+        font-size: 16px; /* Increase font size for better readability */
+    }
+
+    footer
+  
+}
+
+
+
+

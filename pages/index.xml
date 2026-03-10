@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Mon, 16 Oct 2023 06:12:13 +0000</pubDate><title><![CDATA[Home]]></title><url><![CDATA[index]]></url><meta><![CDATA[Educational Adventures, Gamified Learning, Curiosity-Driven Education]]></meta><metad><![CDATA[Explore Learning Ladder: Where Learning Meets Fun! Play, Learn, and Ignite Your Passion!]]></metad><menu><![CDATA[Home]]></menu><menuOrder><![CDATA[1]]></menuOrder><menuStatus><![CDATA[Y]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<p>&lt;!DOCTYPE html&gt;<br />
+	&lt;html class="homebg" lang="en"&gt;<br />
+	&lt;head&gt;<br />
+	&nbsp; &nbsp; &lt;meta charset="utf-8"&gt;<br />
+	&nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&nbsp;&gt;<br />
+	&nbsp; &nbsp; &lt;title&gt;About Learning Ladder&lt;/title&gt;<br />
+	&lt;/head&gt;<br />
+	&lt;body&gt;<br />
+	&nbsp; &nbsp; &lt;!-- main content --&gt;<br />
+	&nbsp; &nbsp; &lt;div class="main"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- welcome --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="welcomebox"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1 class="welcome"&gt;Welcome To Learning Ladder&lt;/h1&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="intro"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- An introductory paragraph --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;em&gt;Welcome to Learning Ladder&lt;/em&gt;, a place where learning and excitement collide! Through the power of games, we are committed to stoking your curiosity and sparking your love of learning. Our goal is to make learning a thrilling experience in which information is attained with excitement and delight. Discover our selection of instructional games that are created to interest students of all ages and skill levels. Join us on an adventure where learning is exciting, and let &lt;em&gt;Learning Ladder&lt;/em&gt; ignite your thirst for knowledge. Give your friends a major &lt;abbr title="Fear Of Missing Out"&gt;FOMO&lt;/abbr&gt;.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a class="passion" href="https://www.newcastle.edu.au/course/INFT3960" style="font-size: 20px;"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2&gt;Check out Courses!!&lt;/h2&gt; &lt;!-- Link to courses --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/a&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="fuel" style="text-align: center; font-size: 25px;"&gt;It's &lt;span style="color: teal;"&gt;Time to Fuel&lt;/span&gt; Your Passion&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 class="featured" style="text-align: center;"&gt;Featured Games&lt;/h2&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- 3 featured games --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;ul class="allgames"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class="game1"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="data/uploads/biotycoon.webp" alt="BioTech Tycoon:Genetic Revolution" style="width:100%"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="game1content"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;BioTech Tycoon:Genetic Revolution&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Description of the first game --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Take on the role of a forward-thinking geneticist in BioTech Tycoon: Genetic Revolution. In this simulation game, you may design and develop cutting-edge biotechnologies while also learning about DNA and influencing the future of medicine. In an exciting and fascinating adventure, investigate the moral conundrums and technological advancements of biotechnology.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Link to more information about the game --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="http://mysite/games?category=STEM"&gt;Read More about the game&lt;/a&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Add content for the second and third games here --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class="game2"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="data/uploads/cybermath.webp" alt="CyberMath Mastery" style="width:100%"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="game2content"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;CyberMath Mastery&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Description of the second game --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Math meets the explosive sensation of a cyberpunk universe in the fascinating STEM learning experience that CyberMath Mastery transports players into. In this frantic game, you'll solve complex mathematical puzzles that call for accuracy, dexterity, and rapid thinking in a visually gorgeous cyberpunk setting.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Link to more information about the game --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="http://mysite/games?category=STEM"&gt;Read More about the game&lt;/a&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;li class="game3"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="data/uploads/literarylegends.webp" alt="Literary Legends:Classic Story Quest" style="width:100%"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="game3content"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;Literary Legends:Classic Story Quest&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Description of the third game --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Take a journey through the pages of classic literature with the literary legends on a classic story quest. Travel with cherished characters, solve puzzles based on well-known books, and discover the magic of storytelling for yourself. This game will test your wits while igniting your interest for great literature through a unique blend of education and adventure.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Link to more information about the game --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;a href="http://mysite/games?category=Literary"&gt;Read More about the game&lt;/a&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/li&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/ul&gt;<br />
+	&nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &lt;!-- boasting about website --&gt;<br />
+	&nbsp; &nbsp; &lt;div class="property"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="1mil"&gt;&lt;strong&gt;1 Million Students&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="games"&gt;&lt;strong&gt;300 Games&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 class="unltd"&gt;&lt;strong&gt;Unlimited Possibilities&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &lt;!-- lets play image --&gt;<br />
+	&nbsp; &nbsp; &lt;div class="playcontainer"&gt;<br />
+	&nbsp; &nbsp; &nbsp;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- Default image if no media query matches --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;img src="data/uploads/letsplay.webp" alt="Let's Play" style="max-width: 100%;"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp;<br />
+	&nbsp; &nbsp; &lt;/div&gt;</p>
+
+<p>&nbsp; &nbsp;<br />
+	&lt;/body&gt;<br />
+	&lt;/html&gt;<br />
+	&nbsp;</p>
+]]></content><private><![CDATA[]]></private><author><![CDATA[mac123]]></author></item>

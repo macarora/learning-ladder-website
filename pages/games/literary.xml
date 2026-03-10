@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE gamecategory [
+    <!ELEMENT gamecategory (categorydescription, categoryname, game+)>
+    <!ELEMENT game (name, description, gradelevel, subject, searchtags+, cost, equipmentrequired+, review*, difficultylevel, popularitylevel, internetspeed, gamepicture, url)>
+    <!ELEMENT categoryname (#PCDATA)>
+    <!ELEMENT categorydescription (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT gradelevel (#PCDATA)>
+    <!ELEMENT subject (#PCDATA)>
+    <!ELEMENT searchtags (tag+)>
+    <!ELEMENT tag (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+    <!ELEMENT equipmentrequired (item+)>
+    <!ELEMENT item (#PCDATA)>
+    <!ELEMENT review (#PCDATA)>
+    <!ATTLIST review score (0|1|2|3|4|5) #REQUIRED>
+    <!ELEMENT difficultylevel (#PCDATA)>
+    <!ATTLIST difficultylevel level (Beginner|Intermediate|Advanced) "Beginner">
+    <!ELEMENT popularitylevel (#PCDATA)>
+    <!ELEMENT internetspeed (#PCDATA)>
+    <!ELEMENT gamepicture (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+]>
+
+<gamecategory>
+  <categoryname>Literary Royale:GAmes That Speak Volumes</categoryname>
+  <categorydescription> 
+    In the Literary Royale category, get ready to embark on an unforgettable literary journey. Play engaging games that will transport you into the vast realm of language and literature. Improve your linguistic abilities while exploring the depths of both classic and modern literature. Literary Royale offers a treasure trove of games that say volumes and invite you to discover the power of language, regardless of your level of writing expertise or where you are in your literary journey.
+  </categorydescription>
+  <game>
+    <name>Word Wizardry:Language Learning Odyssey</name>
+    <description>
+      Word Wizardry will take you on a grand language learning odyssey. Enter a world of enchantment where words are your weapons and mastering language is the secret to success. Discover strange locations, resolve linguistic conundrums, and overcome linguistic obstacles in a fantastical journey that is both enthralling and useful for learning a new language.
+    </description>
+    <gradelevel>Grade 5</gradelevel>
+    <subject>English</subject>
+    <searchtags>
+      <tag>lingustic</tag>
+      <tag>wordmaster</tag>
+      <tag>vocabulary</tag>
+    </searchtags>
+    <cost>19.99</cost>
+    <equipmentrequired>
+            <item>Laptop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+            <item>Desktop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+        </equipmentrequired>
+    <review score="4">Didn't know english can be fun too &#9733;&#9733;&#9733;&#9733;</review>
+    <review score="4">Improved my vocabulary &#9733;&#9733;&#9733;&#9733;</review>
+    <difficultylevel level="Intermediate">Intermediate</difficultylevel>
+    <popularitylevel>Bestseller</popularitylevel>
+    <internetspeed>minimum speed 25mbps</internetspeed>
+    <gamepicture>data/uploads/wordwizard.webp</gamepicture>
+    <url>https://www.newcastle.edu.au/degrees/bachelor-of-mechatronics-engineering-honours</url>
+  </game>
+  
+  <game>
+    <name>Literary Legends:Classic Story Quest</name>
+    <description>
+      Take a journey through the pages of classic literature with the literary legends on a classic story quest. Travel with cherished characters, solve puzzles based on well-known books, and discover the magic of storytelling for yourself. This game will test your wits while igniting your interest for great literature through a unique blend of education and adventure.
+    </description>
+    <gradelevel>Grade 5</gradelevel>
+    <subject>literature</subject>
+    <searchtags>
+      <tag>bookworm</tag>
+      <tag>storytelling</tag>
+      <tag>novel</tag>
+    </searchtags>
+    <cost>49.99</cost>
+    <equipmentrequired>
+            <item>Laptop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+            <item>Desktop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+        </equipmentrequired>
+    <review score="5">I have been introduced to so many new books &#9733;&#9733;&#9733;&#9733;&#9733;</review>
+    <review score="2">Not a fan &#9733;&#9733;</review>
+    <difficultylevel level="Beginner">Beginner</difficultylevel>
+    <popularitylevel>Top Rated</popularitylevel>
+    <internetspeed>minimum speed 25mbps</internetspeed>
+    <gamepicture>data/uploads/literarylegends.webp</gamepicture>
+    <url>https://www.newcastle.edu.au/degrees/bachelor-of-mechatronics-engineering-honours</url>
+  </game>
+
+  <game>
+    <name>Creative Chronicle: Write Your Tale</name>
+    <description>
+      Play the game Creative Chronicles: Write Your Tale to unleash your inner writer. You are invited to create your own epic tales, investigate many genres, and become an expert storyteller in this engaging game. Your imagination has no limits as you embark on this captivating literary trip, exploring everything from fantasy worlds to sci-fi escapades.
+    </description>
+    <gradelevel>Grade 5</gradelevel>
+    <subject>Creative Writing </subject>
+    <searchtags>
+      <tag>creativewriting</tag>
+      <tag>literarymastery</tag>
+      <tag>storytellingadventure</tag>
+    </searchtags>
+    <cost>99.99</cost>
+    <equipmentrequired>
+            <item>Laptop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+            <item>Desktop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+        </equipmentrequired>
+    <review score="4">I love thisssss &#9733;&#9733;&#9733;&#9733;</review>
+    <review score="5">I want to be an Author now!! &#9733;&#9733;&#9733;&#9733;&#9733;</review>
+    <difficultylevel level="Intermediate">Grade 5</difficultylevel>
+    <popularitylevel>Top Rated</popularitylevel>
+    <internetspeed>minimum speed 25mbps</internetspeed>
+    <gamepicture>data/uploads/chronicles.webp</gamepicture>
+    <url>https://www.newcastle.edu.au/degrees/bachelor-of-mechatronics-engineering-honours</url>
+  </game>
+
+
+</gamecategory>
+
+
+
+

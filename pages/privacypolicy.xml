@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 14 Oct 2023 05:14:12 +0000</pubDate><title><![CDATA[Privacy Policy]]></title><url><![CDATA[privacypolicy]]></url><meta><![CDATA[Data Privacy,Information Protection,User Data Safety]]></meta><metad><![CDATA[Privacy Policy: Your data's safety is our priority. We adhere to the Privacy Act, respecting your personal info.]]></metad><menu><![CDATA[Privacy Policy]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<p>&lt;!DOCTYPE html&gt;</p>
+
+<p>&lt;html class="pripol" lang="en"&gt;</p>
+
+<p>&lt;head&gt;<br />
+	&lt;title&gt; Privacy Policy&lt;/title&gt;<br />
+	&lt;meta charset='UTF-8'&gt;<br />
+	&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br />
+	&lt;/head&gt;</p>
+
+<p>&lt;div class="main"&gt;<br />
+	&nbsp; &nbsp; &lt;!-- main content --&gt;<br />
+	&nbsp; &nbsp; &lt;div class="pricontent"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 id="privacypolicy"&gt; Privacy Policy&lt;/h2&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3 id="updated"&gt; - Updated August, 2023 &lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; This following document sets forth the Privacy Policy for the learning ladder website,<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; http://www.learningladder.com.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Learning ladder is committed to providing you with the best possible customer service experience. learning<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ladder is bound by the Privacy Act 1988 (Cth), which sets out a number of principles concerning the privacy<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; of individuals.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Collection of your personal information&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; There are many aspects of the site which can be viewed without providing personal information, however, for<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; access to future learning ladder customer support features you are required to submit personally<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; identifiable information. This may include but not limited to a unique username and password, or provide<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; sensitive information in the recovery of your lost password.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Sharing of your personal information&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; We may occasionally hire other companies to provide services on our behalf, including but not limited to<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; handling customer support enquiries, processing transactions or customer freight shipping. Those companies<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; will be permitted to obtain only the personal information they need to deliver the service. learning ladder<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; takes reasonable steps to ensure that these organisations are bound by confidentiality and privacy<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; obligations in relation to the protection of your personal information.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Use of your personal information&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; For each visitor to reach the site, we expressively collect the following non-personally identifiable<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; information, including but not limited to browser type, version and language, operating system, pages viewed<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while browsing the Site, page access times and referring website address. This collected information is used<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; solely internally for the purpose of gauging visitor traffic, trends and delivering personalized content to<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; you while you are at this Site.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; From time to time, we may use customer information for new, unanticipated uses not previously disclosed in<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; our privacy notice. If our information practices change at some time in the future we will use for these new<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; purposes only, data collected from the time of the policy change forward will adhere to our updated<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; practices.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Changes to this Privacy Policy&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Learning ladder reserves the right to make amendments to this Privacy Policy at any time. If you have<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; objections to the Privacy Policy, you should not access or use the Site.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Accessing Your Personal Information&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; You have a right to access your personal information, subject to exceptions allowed by law. If you would<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; like to do so, please let us know. You may be required to put your request in writing for security reasons.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; learning ladder reserves the right to charge a fee for searching for, and providing access to, your<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; information on a per request basis.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;h3&gt;&lt;strong&gt;Contacting us&lt;/strong&gt;&lt;/h3&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Learning ladder welcomes your comments regarding this Privacy Policy. If you have any questions about this<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Privacy Policy and would like further information, please contact us by any of the following means during<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; business hours Monday to Friday.<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;em&gt;E-mail: privacy-policy@learningladder.com&lt;/em&gt;<br />
+	&nbsp; &nbsp; &lt;/div&gt;<br />
+	&lt;/div&gt;</p>
+]]></content><private><![CDATA[]]></private><author><![CDATA[mac123]]></author></item>

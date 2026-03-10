@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE gamecategory [
+    <!ELEMENT gamecategory (categorydescription, categoryname, game+)>
+    <!ELEMENT game (name, description, gradelevel, subject, searchtags+, cost, equipmentrequired+, review*, difficultylevel, popularitylevel, internetspeed, gamepicture+, url)>
+    <!ELEMENT categoryname (#PCDATA)>
+    <!ELEMENT categorydescription (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT description (#PCDATA)>
+    <!ELEMENT gradelevel (#PCDATA)>
+    <!ELEMENT subject (#PCDATA)>
+    <!ELEMENT searchtags (tag+)>
+    <!ELEMENT tag (#PCDATA)>
+    <!ELEMENT cost (#PCDATA)>
+    <!ELEMENT equipmentrequired (item+)>
+    <!ELEMENT item (#PCDATA)>
+    <!ELEMENT review (#PCDATA)>
+    <!ATTLIST review score (0|1|2|3|4|5) #REQUIRED>
+    <!ELEMENT difficultylevel (#PCDATA)>
+    <!ATTLIST difficultylevel level (Beginner|Intermediate|Advanced) "Beginner">
+    <!ELEMENT popularitylevel (#PCDATA)>
+    <!ELEMENT internetspeed (#PCDATA)>
+    <!ELEMENT gamepicture (#PCDATA)>
+    <!ELEMENT url (#PCDATA)>
+]>
+<gamecategory>
+    <categoryname>Fuel Your Passion with STEM: Ignite curiosity, Spark Innovation</categoryname>
+    <categorydescription> 
+        Our philosophy at Learning Ladder is that learning should be an exciting journey, and STEM is the core of that adventure. Our STEM games are created to inspire as well as educate. They encourage you to explore, experiment, and ask questions in the world of discovery. It aims to spark your curiosity, promote critical thinking, and assist you in realizing your capacity for innovation and future-shaping. You don't just learn with the STEM games from Learning Ladder; you also ignite your curiosity and creative flair. Come along for this exciting adventure as we discover STEM's endless potential.
+    </categorydescription>
+    <game>
+        <name>CyberMath Mastery</name>
+        <description>
+            Math meets the explosive sensation of a cyberpunk universe in the fascinating STEM learning experience that CyberMath Mastery transports players into. In this frantic game, you'll solve complex mathematical puzzles that call for accuracy, dexterity, and rapid thinking in a visually gorgeous cyberpunk setting. As you explore this futuristic world and solve mathematical puzzles to discover the mysteries of the digital frontier, hone your mathematical abilities from basic arithmetic to sophisticated calculus. On the Learning Ladder platform, "CyberMath Mastery" turns learning arithmetic into an epic adventure with competitive leaderboards, real-time progress tracking, and cyber-enhanced power-ups.
+        </description>
+        <gradelevel>Grade 5</gradelevel>
+        <subject>Math</subject>
+        <searchtags>
+            <tag>cyberpunk math</tag>
+            <tag>mathlogic</tag>
+            <tag>mathhacker</tag>
+        </searchtags>
+        <cost>39.99</cost>
+        <equipmentrequired>
+            <item>Laptop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+            <item>Desktop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+        </equipmentrequired>
+        <review score="4">It's an Amazing game. Fell in love with Math &#9733;&#9733;&#9733;&#9733;</review>
+        <review score="4">It's so Raaaaaaadddddd &#9733;&#9733;&#9733;&#9733;</review>
+        <difficultylevel level="Intermediate">Intermediate</difficultylevel>
+        <popularitylevel>Bestseller</popularitylevel>
+        <internetspeed>minimum speed 25mbps</internetspeed>
+        <gamepicture>/data/uploads/cybermath.webp</gamepicture>
+        <url>https://www.newcastle.edu.au/degrees/bachelor-of-mechatronics-engineering-honours</url>
+    </game>
+  
+    <game>
+        <name>DataHackers: CyberSecurity Challenge</name>
+        <description>
+            You play an elite ethical hacker entrusted with guarding vital systems from online dangers in DataHackers: Cybersecurity Challenge. In an exhilarating gaming experience set in a cyberpunk future, delve into the world of digital espionage, discover weaknesses, and hone your cybersecurity skills.
+        </description>
+        <gradelevel>Grade 5</gradelevel>
+        <subject>Programming</subject>
+        <searchtags>
+            <tag>cybersecurity</tag>
+            <tag>ethicalhacking</tag>
+            <tag>dataprotection</tag>
+        </searchtags>
+        <cost>49.99</cost>
+        <equipmentrequired>
+            <item>Laptop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+            <item>Desktop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+        </equipmentrequired>
+        <review score="5">This is so cool. I am an ethical hacker now. Can I say that? &#9733;&#9733;&#9733;&#9733;&#9733;</review>
+        <review score="2">Not so easy &#9733;&#9733;</review>
+        <difficultylevel level="Advanced">Advanced</difficultylevel>
+        <popularitylevel>Most Viewed</popularitylevel>
+        <internetspeed>minimum speed 25mbps</internetspeed>
+        <gamepicture>data/uploads/cybersecurity.webp</gamepicture>
+        <url>https://www.newcastle.edu.au/degrees/bachelor-of-mechatronics-engineering-honours</url>
+    </game>
+
+    <game>
+        <name>BioTech Tycoon: Genetic Revolution</name>
+        <description>
+            Take on the role of a forward-thinking geneticist in BioTech Tycoon: Genetic Revolution. In this simulation game, you may design and develop cutting-edge biotechnologies while also learning about DNA and influencing the future of medicine. In an exciting and fascinating adventure, investigate the moral conundrums and technological advancements of biotechnology.
+        </description>
+        <gradelevel>Grade 5</gradelevel>
+        <subject>Science</subject>
+        <searchtags>
+            <tag>bioethics</tag>
+            <tag>healthcareinnovation</tag>
+            <tag>geneticrevolution</tag>
+        </searchtags>
+        <cost>99.99</cost>
+        <equipmentrequired>
+            <item>Laptop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+            <item>Desktop with minimum 4gb ram, windows 10 or later, ability to connect to the internet</item>
+        </equipmentrequired>
+        <review score="4">I love thisssss &#9733;&#9733;&#9733;&#9733;</review>
+        <review score="5">If you love playing god this is it!! &#9733;&#9733;&#9733;&#9733;&#9733;</review>
+        <difficultylevel level="Intermediate">Grade 5</difficultylevel>
+        <popularitylevel>Top Rated</popularitylevel>
+        <internetspeed>minimum speed 25mbps</internetspeed>
+        <gamepicture>data/uploads/biotycoon.webp</gamepicture>
+        <url>https://www.newcastle.edu.au/degrees/bachelor-of-mechatronics-engineering-honours</url>
+    </game>
+</gamecategory>

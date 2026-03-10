@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Mon, 16 Oct 2023 05:15:49 +0000</pubDate><title><![CDATA[Submit Game]]></title><url><![CDATA[submitgame]]></url><meta><![CDATA[Game Registration,Submit Your Game,Game Submission]]></meta><metad><![CDATA[Register Your Game: Share your game details with us. We value your input! Let's get started.]]></metad><menu><![CDATA[Data Collection]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<p>&lt;!DOCTYPE html&gt;<br />
+	&lt;html class="submitgame" lang="en"&gt;</p>
+
+<p>&lt;head&gt;<br />
+	&nbsp; &nbsp; &lt;meta charset="UTF-8"&gt;<br />
+	&nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;<br />
+	&nbsp; &nbsp; &lt;title&gt;About You&lt;/title&gt;<br />
+	&lt;/head&gt;</p>
+
+<p>&lt;body&gt;<br />
+	&nbsp; &nbsp; &lt;script&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; // Initialize equipment count<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; var equipmentCount = 1;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; // Function to add new equipment fields<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; document.getElementById("addEquipment").addEventListener("click", function () {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var equipmentContainer = document.getElementById("equipment-container");<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var newEquipmentItem = document.createElement("div");<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; newEquipmentItem.className = "equipment-item";</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var equipmentNameInput = document.createElement("input");<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentNameInput.type = "text";<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentNameInput.name = "equipmentName";<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentNameInput.placeholder = "Equipment Name";</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var equipmentPriceInput = document.createElement("input");<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentPriceInput.type = "number";<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentPriceInput.name = "equipmentPrice";<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentPriceInput.placeholder = "Equipment Price";</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (equipmentCount &gt;= 1) {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var removeButton = document.createElement("button");<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; removeButton.type = "button";<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; removeButton.textContent = "Remove";<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; removeButton.addEventListener("click", function () {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; removeEquipment(newEquipmentItem);<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; });<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; newEquipmentItem.appendChild(removeButton);<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; newEquipmentItem.appendChild(equipmentNameInput);<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; newEquipmentItem.appendChild(equipmentPriceInput);</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentContainer.appendChild(newEquipmentItem);<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentCount++;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; });</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; // Function to remove an equipment item<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; function removeEquipment(item) {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; var equipmentContainer = document.getElementById("equipment-container");<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentContainer.removeChild(item);<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentCount--;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+
+<p><br />
+	&nbsp; &nbsp; &nbsp; &nbsp; // Function to calculate and update total cost and price category<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; function updateTotalCostAndCategory() {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const gameCost = parseFloat(document.getElementById("gamecost").value) || 0;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Calculate the total cost, considering game cost and equipment costs<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const equipmentInputs = document.querySelectorAll('input[name="equipmentPrice"]');<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; let totalEquipmentCost = 0;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentInputs.forEach(function (equipmentInput) {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const equipmentPrice = parseFloat(equipmentInput.value) || 0;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; totalEquipmentCost += equipmentPrice;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; });<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; const totalCost = gameCost + totalEquipmentCost;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Update the total cost field<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; document.getElementById("totalcost").value = totalCost.toFixed(2);</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Determine the price category<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; let priceCategory;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (totalCost === 0) {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; priceCategory = 'Free';<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } else if (totalCost &lt; 25) {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; priceCategory = 'Cheap';<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } else if (totalCost &gt; 100) {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; priceCategory = 'Expensive';<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } else {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; priceCategory = 'Affordable';<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Update the price category field<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; document.getElementById("pricecategory").value = priceCategory;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; }</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; // Attach the function to cost fields' input events<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; document.getElementById("gamecost").addEventListener("input", updateTotalCostAndCategory);<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; const equipmentInputs = document.querySelectorAll('input[name="equipmentPrice"]');<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; equipmentInputs.forEach(function (equipmentInput) {<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; equipmentInput.addEventListener("input", updateTotalCostAndCategory);<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; });<br />
+	&nbsp; &nbsp; &lt;/script&gt;<br />
+	&nbsp; &nbsp; &lt;div class="container"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;form id="myform" action="submit.php" method="POST"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h1&gt;Register Your Game&lt;/h1&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;fieldset&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;legend&gt;Your Details&lt;/legend&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="fname"&gt;First Name &lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="fname" id="fname" required/&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="lname"&gt;Last Name &lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="lname" id="lname" required/&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="email"&gt;Email&lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="email" name="email" id="email" /&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="gamessubmitted"&gt;No. of previous games submitted&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="number" name="gamessubmitted" id="gamessubmitted" min="0" /&gt;</p>
+
+<p><br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p class="q1"&gt;Have you had any previous experience with games?&lt;span&gt;*&lt;/span&gt;&lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="yes"&gt;Yes&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="radio" id="yes" name="experience" value="yes" required /&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="no"&gt;No&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="radio" id="no" name="experience" value="no" required /&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/fieldset&gt;&lt;br&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;fieldset&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;legend&gt;Your Game Details&lt;/legend&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="categoryname"&gt;Select Game Category&lt;/label&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;select id="categoryname" name="categoryname"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value="STEM"&gt;STEM&lt;/option&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value="Literary"&gt;Literary&lt;/option&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/select&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="gname"&gt;Game Name&lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="gname" id="gname" required/&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="gradelevel"&gt;Grade Level&lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="gradelevel" id="gradelevel" required/&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="review"&gt;Review &lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="review" id="review" required/&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="difficultylevel"&gt;Difficulty Level&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;select id="difficultylevel" name="difficultylevel"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value="Beginner"&gt;Beginner&lt;/option&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value="Intermediate"&gt;Intermediate&lt;/option&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;option value="Advanced"&gt;Advanced&lt;/option&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/select&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="internetspeed"&gt;Internet Speed&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="internetspeed" id="internetspeed" /&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="gamepicture"&gt;Game Picture URL&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="url" name="gamepicture" id="gamepicture" /&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="url"&gt;URL&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="url" name="url" id="url" /&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="gamecost"&gt;Game cost&lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="number" name="gamecost" id="gamecost" required/&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="totalcost"&gt;Total Cost&lt;span&gt;*&lt;/span&gt;&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="totalcost" id="totalcost" readonly /&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="pricecategory"&gt;Price Category&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="pricecategory" id="pricecategory" readonly /&gt;</p>
+
+<p><br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/fieldset&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;fieldset&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;legend&gt;Required Equipment&lt;span&gt;*&lt;/span&gt;&lt;/legend&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div id="equipment-container" style="display: flex; flex-direction: column;"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- At least one equipment item (without delete option) --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="equipment-item"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" name="equipmentName" placeholder="Equipment Name" required /&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="number" name="equipmentPrice" placeholder="Equipment Price" required /&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button type="button" id="addEquipment"&gt;Add Equipment&lt;/button&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/fieldset&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="checkbox" name="termsandconditions" value="YES" id="termsCheckbox" required&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="termsCheckbox"&gt;I have read the terms and conditions&lt;/label&gt;</p>
+
+<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="submitresetcontainer"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;button type="submit"&gt;Submit&lt;/button&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="reset" value="Reset"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br />
+	&nbsp; &nbsp; &lt;/div&gt;</p>
+
+<p>&nbsp; &nbsp;&nbsp;<br />
+	&lt;/body&gt;</p>
+
+<p>&lt;/html&gt;</p>
+]]></content><private><![CDATA[]]></private><author><![CDATA[mac123]]></author></item>

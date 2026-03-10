@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<item><pubDate>Sat, 14 Oct 2023 05:11:39 +0000</pubDate><title><![CDATA[Contact us]]></title><url><![CDATA[contactus]]></url><meta><![CDATA[Contact Information,Customer Support,Get in Touch]]></meta><metad><![CDATA[Contact Us: Got questions? We're here to help. Fill out the form and reach out. Your answers are just a message away!]]></metad><menu><![CDATA[contact us]]></menu><menuOrder><![CDATA[0]]></menuOrder><menuStatus><![CDATA[]]></menuStatus><template><![CDATA[template.php]]></template><parent><![CDATA[]]></parent><content><![CDATA[<p>&lt;!DOCTYPE html&gt;<br />
+	&lt;html class="contactus" lang="en"&gt;</p>
+
+<p>&lt;head&gt;<br />
+	&nbsp; &nbsp; &lt;title&gt; Contact Us &lt;/title&gt;<br />
+	&nbsp; &nbsp; &lt;meta charset='UTF-8'&gt;<br />
+	&nbsp; &nbsp; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&nbsp;&gt;<br />
+	&lt;/head&gt;</p>
+
+<p><br />
+	&lt;body&gt;<br />
+	&nbsp; &nbsp; &lt;div class="main"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;!-- main content --&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;div class="conctactcontent"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;h2 id="contactus"&gt; HAVE SOME QUESTIONS? &lt;/h2&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;form id="form" action="https://jkorpela.fi/cgi-bin/echo.cgi" method="post"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="fname"&gt;First name&lt;/label&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" id="fname" name="fname" required&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="lname"&gt;Last name&lt;/label&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" id="lname" name="lname" required&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="email"&gt; What's your email?&lt;/label&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="text" id="email" name="email" required&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="message"&gt;What's your message?&lt;/label&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;textarea class="textarea" id="message" name="message" rows="10" cols="30" required&gt;&lt;/textarea&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;p&gt; Is it Urgent?&lt;/p&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="yes"&gt;yes&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="radio" id="yes" name="urgent" value="yes" required&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;label for="no"&gt;no&lt;/label&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="radio" id="no" name="urgent" value="no" required&gt;&lt;br&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="submit" value="Send message"&gt;&lt;br&gt;&lt;br&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;input type="reset" value="Start again"&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &lt;/form&gt;<br />
+	&nbsp; &nbsp; &nbsp; &nbsp; &lt;/div&gt;<br />
+	&nbsp; &nbsp; &lt;/div&gt;<br />
+	&lt;/body&gt;</p>
+
+<p>&lt;/html&gt;</p>
+]]></content><private><![CDATA[]]></private><author><![CDATA[mac123]]></author></item>

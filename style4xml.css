@@ -1,0 +1,76 @@
+body {
+    background: ghostwhite;
+}
+
+.category-title, .category-description {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 5px;
+}
+
+.category-title {
+    color: teal;
+    text-align: center;
+    font-family: fantasy, sans-serif;
+    font-weight: lighter;
+}
+
+/* Style for game name */
+.game-link {
+    font-size: 20px;
+    font-weight: bold;
+    color: teal;
+}
+
+.games {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.picture {
+    width: 50%; /* Set the desired width for your images */
+    max-height: 400px; /* Set the maximum height for your images */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.game-details {
+    flex: 1;
+    margin-left: 10px;
+    font-family: monospace, sans-serif;
+    text-align: left;
+}
+
+
+/* for mobile*/
+
+@media (max-width: 600px) {
+    .category-title {
+        font-size: 18px;
+    }
+
+    .game-link {
+        font-size: 18px;
+    }
+
+    .games {
+        flex-direction: column;
+    }
+
+    .picture {
+        width: 100%;
+        max-height: none;
+    }
+
+    .game-details {
+        margin: 10px 0;
+    }
+}
