@@ -1,0 +1,44 @@
+[30-Sep-2023 05:35:11 UTC] PHP Warning:  Undefined variable $gameClass in C:\wamp64\www\MySite\theme\Maclearning\nav.php on line 38
+[30-Sep-2023 05:35:11 UTC] PHP Stack trace:
+[30-Sep-2023 05:35:11 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[30-Sep-2023 05:35:11 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[30-Sep-2023 05:35:11 UTC] PHP   3. include() C:\wamp64\www\MySite\theme\Maclearning\template.php:15
+[30-Sep-2023 05:35:40 UTC] PHP Warning:  Undefined variable $gameClass in C:\wamp64\www\MySite\theme\Maclearning\nav.php on line 38
+[30-Sep-2023 05:35:40 UTC] PHP Stack trace:
+[30-Sep-2023 05:35:40 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[30-Sep-2023 05:35:40 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[30-Sep-2023 05:35:40 UTC] PHP   3. include() C:\wamp64\www\MySite\theme\Maclearning\template.php:15
+[30-Sep-2023 05:36:13 UTC] PHP Warning:  Undefined variable $gameClass in C:\wamp64\www\MySite\theme\Maclearning\nav.php on line 38
+[30-Sep-2023 05:36:13 UTC] PHP Stack trace:
+[30-Sep-2023 05:36:13 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[30-Sep-2023 05:36:13 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[30-Sep-2023 05:36:13 UTC] PHP   3. include() C:\wamp64\www\MySite\theme\Maclearning\template.php:15
+[30-Sep-2023 05:36:25 UTC] PHP Warning:  Undefined variable $gameClass in C:\wamp64\www\MySite\theme\Maclearning\nav.php on line 38
+[30-Sep-2023 05:36:25 UTC] PHP Stack trace:
+[30-Sep-2023 05:36:25 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[30-Sep-2023 05:36:25 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[30-Sep-2023 05:36:25 UTC] PHP   3. include() C:\wamp64\www\MySite\theme\Maclearning\template.php:15
+[30-Sep-2023 05:36:27 UTC] PHP Warning:  Undefined variable $gameClass in C:\wamp64\www\MySite\theme\Maclearning\nav.php on line 38
+[30-Sep-2023 05:36:27 UTC] PHP Stack trace:
+[30-Sep-2023 05:36:27 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[30-Sep-2023 05:36:27 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[30-Sep-2023 05:36:27 UTC] PHP   3. include() C:\wamp64\www\MySite\theme\Maclearning\template.php:15
+[30-Sep-2023 05:36:59 UTC] PHP Warning:  Undefined variable $gameClass in C:\wamp64\www\MySite\theme\Maclearning\nav.php on line 38
+[30-Sep-2023 05:36:59 UTC] PHP Stack trace:
+[30-Sep-2023 05:36:59 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[30-Sep-2023 05:36:59 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[30-Sep-2023 05:36:59 UTC] PHP   3. include() C:\wamp64\www\MySite\theme\Maclearning\template.php:15
+[30-Sep-2023 05:37:07 UTC] PHP Warning:  Undefined variable $gameClass in C:\wamp64\www\MySite\theme\Maclearning\nav.php on line 38
+[30-Sep-2023 05:37:07 UTC] PHP Stack trace:
+[30-Sep-2023 05:37:07 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[30-Sep-2023 05:37:07 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[30-Sep-2023 05:37:07 UTC] PHP   3. include() C:\wamp64\www\MySite\theme\Maclearning\template.php:15
+[14-Oct-2023 07:03:32 UTC] PHP Warning:  Undefined array key "category" in C:\wamp64\www\MySite\theme\Maclearning\template.php on line 29
+[14-Oct-2023 07:03:32 UTC] PHP Stack trace:
+[14-Oct-2023 07:03:32 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[14-Oct-2023 07:03:32 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[14-Oct-2023 07:03:33 UTC] PHP Warning:  Undefined array key "category" in C:\wamp64\www\MySite\theme\Maclearning\template.php on line 29
+[14-Oct-2023 07:03:33 UTC] PHP Stack trace:
+[14-Oct-2023 07:03:33 UTC] PHP   1. {main}() C:\wamp64\www\MySite\index.php:0
+[14-Oct-2023 07:03:33 UTC] PHP   2. include() C:\wamp64\www\MySite\index.php:134
+[14-Oct-2023 10:36:56 UTC] PHP Parse error:  syntax error, unexpected token ")", expecting variable in C:\wamp64\www\MySite\theme\Maclearning\footer.php on line 5
